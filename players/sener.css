@@ -50,11 +50,11 @@ img{
 }
 .product-content{
     padding: 1rem 1rem;
+    color: #DDDDDD;
 }
 .product-title{
     top: 20px;
     font-size: 35px;
-    text-transform: capitalize;
     font-weight: 700;
     position: relative;
     color: #0b1927;
@@ -64,7 +64,7 @@ img{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 1;
+    bottom: -2;
     height: 3px;
     width: 73%;
     background: #b3342f;
@@ -76,7 +76,7 @@ img{
     padding-bottom: 0.6rem;
 }
 .product-detail p{
-    color: #000;
+    color: #39CCCC;
     font-size: 0.9rem;
     padding: 0.3rem;
     opacity: 2;
@@ -154,4 +154,3 @@ img{
 background:#e74438c2;
 border-radius: 2pc;
 }
-

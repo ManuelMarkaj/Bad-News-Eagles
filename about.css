@@ -9,6 +9,13 @@
 }
 
 
+.logo{
+    margin: 50px;
+    margin-top: 25px;
+    margin-left: 70px;
+    height: 100px;
+    max-width: 100px;
+}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -23,6 +30,7 @@ nav img{
     left: -40px;
 }
 .nav links{
+    
     flex:1;
     text-align: right;
 }
@@ -35,7 +43,7 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration:none;
     font-size: 17px;
 }
@@ -54,78 +62,36 @@ nav img{
 
 }
 
-.text-box{
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-.text-box h1{
-    font-size: 62px;
-
-}
-
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 16px;
-    color: white;
-}
-
-.h-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.h-btn:hover{
-border: 1px solid #eb2e20;
-background:#eb2e20;
-transition: 1s;
-}
-
-/*---mission--*/
+/*---about us--*/
 #about-us{
     width: 100%;
     background: #9796963d;
 }
 .about-us{
-   width: 90%;
-   margin: auto;
-   text-align: center;
-   padding-top: 50px;
-  
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .about-col{
-   padding: 20px 2px;
-   margin-left: 350px;
+    padding: 20px 2px;
+    margin-left: 350px;
 }
 
 .about-col img{
-   width: 100%;
-   
+    width: 100%;
 }
 
 .about-col h1{
-   padding-top: 0;
-   color: #0f7f9b;
+    padding-top: 0;
+    color: #0f7f9b;
 }
 
 .about-col p{
-   padding: 15px 0 25px;
-   color: #6e6d6d;
-   font-size:medium;
-   
+    padding: 15px 0 25px;
+    color: #6e6d6d;
+    font-size:medium;
 }
 
 .row{
@@ -142,38 +108,42 @@ transition: 1s;
     display: block;
     margin: auto;
  }
+
  h1{
     font-size: 36px;
     font-weight: 600px;
 }
+
 #footer{
     padding: 00px 0 20px;
 	background:black;
 	position: relative;
- }
- .container{
-     max-width: 1300px;
-     margin: auto;
-     padding-left: 25px;
-     padding-right: 25px;
+}
 
- }
- .Frow{
-     display:flex;
-     align-items: center;
-     flex-wrap: wrap;
-     justify-content: space-around;
- }
- .footer{
-     background: #000;
-     color: #8a8a8a;
-     font-size: 14px;
-     padding:60px 0 20px;
- }
- .footer p{
-     color: #8a8a8a;
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
- }
+.Frow{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
 
 .logo{
     margin: 50px;
@@ -182,16 +152,17 @@ transition: 1s;
     height: 100px;
     max-width: 100px;
 }
- .footer h3{
+.footer h3{
     color: #fff;
     margin-bottom: 20px;
     
 }
 
- .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
     min-width:250px;
     margin-bottom: 20px;
 }
+
 .footer-col-1{
     flex-basis: 30%;
     text-align: center;
@@ -206,38 +177,32 @@ transition: 1s;
     transition-delay:   0.45s;
 }
 
+.footer-col-2{
+    flex: 1;
+    text-align: center; 
+}
 
- .footer-col-2{
-     
-     flex: 1;
-     text-align: center;
-     
+.footer-col-2 img{
+    width:260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
- }
- .footer-col-2 img{
-     width:260px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-    
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
 
- }
- .footer-col-3,.footer-col-4{
-     flex-basis: 12%;
-     text-align: center;
+ul{
+    list-style-type: none;
+}
 
- }
+.download-logo{
+    margin-top: 20px;
+}
 
- ul{
-     list-style-type: none;
- }
-
- .download-logo{
-     margin-top: 20px;
-
- }
-
- .download-logo img{
-     width: 160px;
-     background: transparent;
- }
+.download-logo img{
+    width: 160px;
+    background: transparent;
+}

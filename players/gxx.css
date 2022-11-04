@@ -66,7 +66,7 @@ img{
     left: 0;
     bottom: -2;
     height: 3px;
-    width: 48%;
+    width: 56%;
     background: #b3342f;
 }
 
@@ -130,7 +130,7 @@ img{
         justify-content: center;
         align-items: center;
     }
-    .product-imgs{
+    .product-imgs{  
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -151,7 +151,7 @@ img{
     position: relative;
     cursor: pointer;
     border: 1px solid #d83d31;
-background:#e74438c2;
-border-radius: 2pc;
+    background:#e74438c2;   
+    border-radius: 2pc;
 }
 

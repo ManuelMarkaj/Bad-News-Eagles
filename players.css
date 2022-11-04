@@ -12,6 +12,11 @@
     background-size: cover;
     position: relative ;
 }
+
+.mobile-menu-icon{
+    display: none;
+}
+
 .logo{
     margin: 50px;
     margin-top: 25px;
@@ -238,4 +243,250 @@ ul{
 .footer-col-1 a:hover{
     color:aquamarine;
     transition-delay:   0.45s;
+}
+
+
+@media (max-width: 400px){
+
+    
+    .logo{
+        margin: 25px;
+        margin-top: 25px;
+        margin-left: 45px;
+        height: 80px;
+        width: auto;
+    }
+    .mobile-menu-icon{
+        font-size: 32px;
+        display: block;
+        margin-top: 15px;
+        margin-left: 355px;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav img{
+        width: 210px;
+        position: absolute;
+        top: -20px;
+        left: -40px;
+    }
+    .nav links{
+        
+        flex:1;
+        text-align: right;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    
+    .nav-links ul li{;
+        list-style: none;
+        display: inline-block;
+        padding: 8px 20px;
+        position: relative;
+    }
+    
+    .nav-links ul li a{
+        color: black;
+        text-decoration:none;
+        font-size: 17px;
+    }
+    
+    .nav-links ul li ::after{
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #eb2e20;
+        display: block;
+        margin: auto;
+    }
+    
+    .nav-links ul li :hover::after{
+        width: 100%;
+    
+    }
+    
+    
+    /*-----locations--------------*/
+    
+    a{
+        color: black;
+        text-decoration: none;   
+    }
+    a:hover{
+        text-decoration: none;
+        color: red;
+        transition-delay:   0.45s;
+    }
+    
+    
+    .locations{
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;
+        padding-top: 50px;
+        
+    }
+    
+    h1{
+        font-size: 36px;
+        font-weight: 600px;
+    }
+    
+    .txt::after{
+        font-size: 15px;
+        width: 80%;
+        content: '';
+        height: 5px;
+        background: #eb2e20;
+        display: block;
+        margin: auto;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+    
+    .locations-col{
+        flex-basis: 30%;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .locations-col img{
+        width: 100%;
+        display: block;
+    
+    }
+    
+    .layer{
+        background-color:transparent;
+        height: 100%;
+        width: 100%;
+        position:absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    
+    }
+    .layer:hover{
+        background-color:rgba(226, 11, 11, 0.527);
+    }
+    
+    .layer h3{
+        width: 100%;
+        font-weight: 0;
+        color: white;
+        font-size: 20px;
+        bottom: 0;
+        text-align: center;
+        transition: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    .layer:hover h3{
+        bottom: 43%;
+        opacity: 1;
+    }
+    
+    
+    /*----footer----*/
+    
+    #footer{
+        padding: 00px 0 20px;
+        background:black;
+        position: relative;
+    }
+    
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .Frow{
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .footer{
+        background: #000;
+        color: #8a8a8a;
+        font-size: 14px;
+        padding:60px 0 20px;
+    }
+    
+    .footer p{
+        color: #8a8a8a;
+    }
+    
+    .footer h3{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        min-width:250px;
+        margin-bottom: 20px;
+    }
+    .footer-col-1{
+        flex-basis: 30%;
+        text-align: center;
+    }
+    
+    .footer-col-2{
+        margin-top: 20px;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer-col-2 img{
+        width:260px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-col-3,.footer-col-4{
+        flex-basis: 12%;
+        text-align: center;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    .download-logo{
+        margin-top: 20px;
+        margin-left: 0px;
+    
+    }
+    
+    .download-logo img{
+        width: 160px;
+        background: transparent;
+    }
+    
+    
+    .footer-col-1 a{
+        color: red;
+    }
+    
+    .footer-col-1 a:hover{
+        color:aquamarine;
+        transition-delay:   0.45s;
+    }
+    
 }
